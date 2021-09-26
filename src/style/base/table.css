@@ -1,0 +1,50 @@
+
+table {
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 1px solid #bbb;
+    height: 48px;
+}
+
+table thead th{
+    text-align: left;
+    position: sticky;
+    top: -1px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px -1px #bbb;
+    border: 1px solid #bbb;
+}
+
+table thead{
+    border-bottom: 1px solid #bbb;
+}
+table tbody td{
+    border: 1px solid #bbb;
+}
+
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+
+th:first-child, th:last-child, td:first-child, td:last-child{
+    padding-left: 16px;
+}
+
+table tr{
+    cursor: pointer;
+}
+table tr:hover{
+    background-color: #f0f0f0;
+}
+.choice-select{
+    position: absolute;
+    width: 50px;
+    font-size: 13px;
+    right: 100px;
+    top:100px;
+    background-color: rebeccapurple;
+}

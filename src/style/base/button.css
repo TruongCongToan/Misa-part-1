@@ -1,0 +1,105 @@
+.btn-default {
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #019160;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffff;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 20px;
+}
+.cancel-left{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #000000;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    left: 50px;
+    background-color: #e9e3e3;
+    border: 1px solid black;
+    
+}
+.cat-btn{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #000000;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    right: 200px;
+    background-color: #e9e3e3;
+    border: 1px solid black;
+    
+}
+.save-btn
+    .btn-default:hover {
+        background-color: #2FBE8E;
+    }
+
+    .btn-default:focus {
+        background-color: #2FBE8E;
+    }
+
+    .btn-default:active {
+        background-color: #01B075;
+    }
+
+.btn-refresh {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 24px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    background-image: url('../../assets/icon/refresh.png');
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.btn-delete {
+    /* width: 40px; */
+    height: 40px;
+    position: absolute;
+    right: 392px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    background-color: #F65454;
+    color: #ffffff;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.btn-delete:hover {
+    opacity: 0.8;
+}

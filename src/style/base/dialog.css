@@ -1,0 +1,497 @@
+/* .dialog{
+    
+} */
+
+.dialog .model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: #000000;
+    opacity:.4;
+}
+
+    .dialog .dialog-content {
+        padding: 24px;
+        position: fixed;
+        top: 50px;
+        left: 353px;
+        width: 1090px;
+        height: 635px;
+        border-radius: 4px;
+        background-color: #ffffff;
+    }
+
+    .dialog .dialog-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .dialog .dialog-close-button {
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 0 4px 0 4px;
+    }
+
+    .dialog .dialog-close-button:hover{
+        background-color:#bbb;
+        cursor: pointer;
+    }
+
+    .dialog-body {
+        width: 694px;
+        display: flex;
+        height: calc(100% - 80px);
+        padding-top: 20px;
+    }
+
+    .dialog-body .user-image {
+        width: 22%;
+        height: 100%;
+        text-align: center;
+        color: #515252;
+    }
+    
+    .dialog-body .user-image > img {
+        border: 1px solid #bbb;
+        width: 100%;
+        height: 154px;
+        border-radius: 50%;
+    }
+
+    .dialog-body .user-image > p {
+        font-size: 13px;
+    }
+
+    .dialog-body .user-detail {
+        width: 74%;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .dialog-body .user-detail .section-title {
+        font-size: 13px;
+        font-weight: bold;
+        color: #000;
+        padding: 0 0 10px 0;
+        position: relative;
+        line-height: 13px;
+    }
+
+    .dialog-body .user-detail .section-title::after {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #019160;
+    }
+
+    .dialog-body label {
+        font-size: 13px;
+        color: #515252;
+        line-height: 13px;
+    }
+
+    .dialog-body .section-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dialog-body .info-feild {
+        width: 236px;
+        margin-top: 14px;
+        margin-right: 10px;
+    } 
+
+    .dialog-body .info-feild input:focus {
+        border-color: #019160;
+    }
+
+    .dialog-body .info-feild input[type=text],input[type=date] {
+        height: 30px;
+        width: 142px;
+        margin-top: 2px;
+        padding-left: 12px;
+    }
+    .dialog-body .info-feild-ma{
+        height: 30px;
+        width: 200px;
+        margin-top: 2px;
+        padding-left: 12px;
+       
+    }
+    #txtEmCode{
+        height: 31px;
+        width: 155px;
+        margin-top: 6px;
+        padding-left: 12px;
+        margin-left: -13px;
+    }
+
+    .dialog-body .info-feild-ten{
+        position: absolute;
+        height: 30px;
+        width: 230px;
+        padding-left: 12px;
+        left: 19%;
+      
+    }
+    #txtEmName{
+        position: absolute;
+        height: 30px;
+        width: 280px;
+        padding-left: 12px;
+        top: 23px;
+        left: 4%;
+       
+    }
+    .dialog-body .info-feild-ngay-sinh{
+        position: absolute;
+        height: 30px;
+        width: 230px;
+        padding-left: 12px;
+        left: 50%;
+        margin-top: 2px;
+      
+    }
+    #txtDateofbirth{
+        position: absolute;
+        height: 31px;
+        width: 190px;
+        padding-left: 12px;
+        top: 23px;
+        left: 0%;
+    }
+    .dialog-body .info-feild-Gender{
+        position: absolute;
+        height: 31px;
+        width: 230px;
+        padding-left: 12px;
+        left: 68%;
+        margin-top: 4px;
+    }
+    #txtGender{
+        position: absolute;
+        height: 32px;
+        width: 265px;
+        top: 17px;
+        padding-left: 12px;
+    }
+    .info-feild-don-vi{
+        position:absolute;
+        width: 480px;
+        border-radius: 4px;
+        outline: none;
+        height: 30px;
+        font-size: 14px;
+        top: 22%;
+       
+}
+    #txtDonvi{
+        position: absolute;
+        width: 480px;
+        border-radius: 4px;
+        outline: none;
+        height: 34px;
+        font-size: 14px;
+        top: 87%;
+    }
+    .info-feild-CMND{
+    position: absolute;
+    width: 285px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    left: 50%;
+    top: 22%;
+  
+}
+#txtCMND{
+        position: absolute;
+        width: 240px;
+        border-radius: 4px;
+        outline: none;
+        height: 31px;
+        font-size: 14px;
+        top: 87%;
+      
+    
+}
+.info-feild-Ngay-Cap{
+    position: absolute;
+    width: 215px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+     right: 90px;
+    top: 22%;
+  
+}
+#txtNgayCap{
+        position: absolute;
+        width: 202px;
+        border-radius: 4px;
+        outline: none;
+        height: 33px;
+        font-size: 14px;
+        top: 74%;  
+}
+.info-feild-chuc-danh{
+    position:absolute;
+    width: 480px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    top: 34%;
+   
+   
+}
+#txtChucDanh{
+    position: absolute;
+    width: 476px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 90%;
+}
+.info-feild-noi-cap{
+    position:absolute;
+    width: 480px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    top: 34%;
+   left: 50%;
+}
+#txtNoiCap{
+    position: absolute;
+    width: 476px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 90%;
+}
+.info-feild-dia-chi{
+    position:absolute;
+    width: 480px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    top: 50%;
+   
+}
+#txtDiaChi{
+    position: absolute;
+    width: 1004px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+   }
+   .info-feild-di-dong{
+    position:absolute;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    top: 62%;
+}
+#txtDiDong{
+    position: absolute;
+    width: 246px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+ 
+   }
+   .info-feild-co-dinh{
+    position: absolute;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    left: 310px;
+    /* margin-left: 136px; */
+    top: 62%;
+   
+
+}
+#txtCoDinh{
+    position: absolute;
+    width: 246px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+
+   }
+   .info-feild-email{
+    position: absolute;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    left: 580px;
+    top: 62%;
+
+}
+#txtEmail{
+    position: absolute;
+    width: 246px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+ 
+   }
+   .info-feild-bank-account{
+    position:absolute;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    top: 75%;
+}
+#txtBankAcc{
+    position: absolute;
+    width: 246px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+ 
+   }
+   .info-feild-ten-bank{
+    position: absolute;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    left: 310px;
+    /* margin-left: 136px; */
+    top: 75%;
+   
+
+}
+#txtNameBank{
+    position: absolute;
+    width: 246px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+
+   }
+   .info-feild-chi-nhanh{
+    position: absolute;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    left: 580px;
+    top: 75%;
+
+}
+#txtChiNhanh{
+    position: absolute;
+    width: 246px;
+    border-radius: 4px;
+    outline: none;
+    height: 31px;
+    font-size: 14px;
+    top: 100%;
+ 
+   }
+    .dialog-body .info-feild input[type=date] {
+    
+    height: 31px;
+    width: 142px;
+    margin-top: 10px;
+    padding-left: 12px;
+    }
+
+    .dialog-body .info-feild select {
+        width: 236px;
+        padding-left: 10px;
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+        outline: none;
+        height: 34px;
+        font-size: 14px;
+    }
+
+    .dialog-body .info-feild select:focus {
+        border-color: #019160;
+    }
+
+    .dialog-body .section-b {
+        margin-top: 12px;
+    }
+
+    .dialog .dialog-footer {
+        width: calc(100%);
+        background-color: #e5e5e5;
+        height: 70px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        margin-left: -24px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+        .dialog .dialog-footer .save-btn {
+            height: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .dialog .dialog-footer .update-btn {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .dialog .dialog-footer .cancel-btn {
+            background-color: transparent;
+            color: #000
+        }
+
+        .dialog .dialog-footer .cancel-btn:hover {
+            background-color: #bbb;
+        }
+
+        .dialog .dialog-footer .cancel-btn:focus {
+            background-color: #bbb;
+        }
+

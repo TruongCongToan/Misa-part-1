@@ -1,0 +1,73 @@
+/* class đã nhập dữ liệu chưa */
+.invalid {
+    position: relative;
+}
+.invalid input{
+    border-color: red;
+}
+.invalid::after {
+    content: "Không được để trống";
+    position: absolute;
+    left: 65px;
+    top: 100%;
+    width: 100px;
+    height: 17px;
+    background-color: black;
+    color:white;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+/* class check địng dạng email */
+.invalid-email {
+    position: relative;
+}
+.invalid-email input{
+    border-color: red;
+}
+.invalid-email::after {
+    content: "Sai định dạng";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150px;
+    height: 13px;
+    color: red;
+    font-size: 10px;
+}
+
+/* class check nhập trùng EmployeeCode */
+.invalidEmcode {
+    position: relative;
+}
+
+.invalidEmcode input {
+    border-color: red;
+}
+
+.invalidEmcode::after {
+    content: "Mã nhân viên đã tồn tại. Vui lòng nhập lại!!";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    height: 13px;
+    color: red;
+    font-size: 10px;
+}
+
+/*class format tiền */
+.input-salary {
+    position: relative;
+}
+
+.input-salary::after {
+    content: "(VNĐ)";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 30px;
+    height: 13px;
+    background-color: #fff;
+    z-index: 2;
+}

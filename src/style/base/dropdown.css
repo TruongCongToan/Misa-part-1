@@ -1,0 +1,40 @@
+
+.drop-down-default {
+    font-size: 13px;
+    color: #000;
+    height: 24px;
+    border-radius: 4px;
+    width: 24px;
+    padding-right: 33px;
+    border: 1px solid #bbbbbb;
+    margin-left: 120px;
+}
+.left-box-drop{
+    position: absolute;
+    font-size: 13px;
+    color: #000;
+    height: 28px;
+    border-radius: 4px;
+    width: 30px;
+    padding-right: 33px;
+    border: 1px solid #bbb;
+    margin-left: 30px;
+    display: flex;
+
+
+}
+
+.drop-down-default > option {
+    height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.drop-down-default:focus {
+    border-color: #019160;
+}
+
+.position-drop-down {
+    padding-right: 22px;
+    /* width: 180px; */
+}
